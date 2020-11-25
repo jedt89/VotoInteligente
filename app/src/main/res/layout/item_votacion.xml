@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/idLayoutItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@drawable/edittext_redondeado"
+    android:padding="10dp">
+        <TextView
+            android:id="@+id/numeroItem"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="404" />
+
+        <TextView
+            android:id="@+id/textoItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto"
+            android:gravity="center_vertical"
+            android:text="Proyecto de esterilización de mascotas"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+</LinearLayout>

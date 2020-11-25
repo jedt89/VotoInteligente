@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_base"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".VotacionesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="40dp"
+            android:text="Votaciones disponibles"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal"
+            android:background="@drawable/edittext_redondeado"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/pets" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto"
+                android:gravity="center_vertical"
+                android:text="Proyecto de esterilización de mascotas"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal"
+            android:background="@drawable/edittext_redondeado"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/security" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto"
+                android:gravity="center_vertical"
+                android:text="Proyecto de seguridad comunal"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal"
+            android:background="@drawable/edittext_redondeado"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/huertos" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto"
+                android:gravity="center_vertical"
+                android:text="Proyecto de Huertos comunales"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="Votaciones no disponibles"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Proyecto Mil Churrascos para Chile"
+            android:gravity="left"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="#80FFFFFF"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Proyecto Con mayo o mostaza"
+            android:gravity="left"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="#80FFFFFF"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Proyecto Agáchate que vienen los Indios"
+            android:gravity="left"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="#80FFFFFF"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
